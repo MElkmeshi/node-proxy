@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "tsc --esModuleInterop app.ts",
-    "dev": "tsx app.ts"
+    "start": "bun run app.ts",
+    "dev": "bun --hot app.ts",
+    "test": "bun test"
   },
   "keywords": [],
   "author": "",
